@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+	<row	id="10000001"	desc="普攻"		target_type="1"	target_param="0"	effect_type=""	effect_param=""	/>
+	<row	id="20010001"	desc="刘备大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010002"	desc="关羽大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010003"	desc="张飞大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010004"	desc="曹操大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010005"	desc="孙权大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010006"	desc="袁绍大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+	<row	id="20010007"	desc="左慈大招"	target_type="1"	target_param="2"	effect_type=""	effect_param=""	/>
+</rows>

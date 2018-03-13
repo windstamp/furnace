@@ -1,0 +1,43 @@
+objects = configure.o log.o network.o string_tool.o time_tool.o
+
+.PHONY : all
+all : $(objects)
+
+configure.o : configure.cpp
+	g++ -c configure.cpp
+
+log.o : log/log.cpp
+	g++ -c log/log.cpp
+
+network.o : network/network.cpp
+	g++ -c network/network.cpp -I.
+
+string_tool.o : string_tool.cpp
+	g++ -c string_tool.cpp
+
+time_tool.o : time/time_tool.cpp
+	g++ -c time/time_tool.cpp
+
+libcommon.a : $(objects)
+	#ar -crv libcommon.a network.o time_tool.o
+	ar -crv libcommon.a $?
+	
+release : libcommon.a
+	rm -rf ../lib
+	mkdir ../lib
+	cp libcommon.a ../lib
+	rm -rf ../include
+	mkdir -p ../include
+	cp -R ../common/*.h ../include
+	# cp -R ../common/*.cpp ../include
+	rm -rf ../include/network
+	mkdir -p ../include/network
+	cp -R network/*.h ../include/network
+	# cp -R network/*.cpp ../include/network
+	rm -rf ../include/time
+	mkdir ../include/time
+	cp -R time/*.h ../include/time
+	# cp -R time/*.cpp ../include/time
+
+clean :
+	rm -rf libcommon.a $(objects)

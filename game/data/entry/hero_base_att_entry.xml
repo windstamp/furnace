@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+	<row	id="10001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="20001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="30001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="40001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="50001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="60001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+	<row	id="70001"	max_hp="800"	attack="300" defence="100"	hit="110"	dodge="65"	crit="110"	decrit="65"	broken="110"	block="65"	max_rage="120"	init_rage="10"	speed="100"	/>
+</rows>

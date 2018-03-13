@@ -1,0 +1,21 @@
+###########################################################
+# Makefile.global for furnace
+###########################################################
+
+# (yes | no)
+OPTIMIZE = no
+
+CC = gcc
+ifeq (OPTIMIZE, yes)
+CCFLAGS = -Wall -O2 -g --std=c99 $(include_dirs)
+else
+CCFLAGS = -Wall -g --std=c99 $(include_dirs)
+endif
+
+CXX = g++
+#ifdef OPTIMIZE
+ifeq ($(OPTIMIZE), yes)
+CXXFLAGS = -Wall -O2 -g -std=c++11 -DBOOST_LOG_DYN_LINK $(include_dirs)
+else
+CXXFLAGS = -Wall -g -std=c++11 -DBOOST_LOG_DYN_LINK $(include_dirs)
+endif

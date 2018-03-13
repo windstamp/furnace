@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+	<row	id="10001001"	src_id="10001000"	dst_id="10001001"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="0"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+	<row	id="10001002"	src_id="10001000"	dst_id="10001002"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="0"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+	<row	id="10001003"	src_id="10001000"	dst_id="10001018"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="0"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+	
+	<row	id="10001004"	src_id="10001001"	dst_id="10001002"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="0"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+	<row	id="10001005"	src_id="10001001"	dst_id="10001003"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="0"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+	<row	id="10001006"	src_id="10001001"	dst_id="10001018"	cost_hero_id_1="10001000"	cost_hero_num_1="1"	cost_hero_id_2="70001000"	cost_hero_num_2="1"	cost_item_id_1=""	cost_item_num_1=""	cost_item_id_2=""	cost_item_num_2=""	/>
+</rows>

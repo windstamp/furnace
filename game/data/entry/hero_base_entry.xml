@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+	<row        id="10001"      name="刘备"     position="1"    damage_type="1"		common_skill_id="10000001"	profound_skill_id="20010001"	/>
+	<row        id="20001"      name="关羽"     position="2"    damage_type="1" 	common_skill_id="10000001"	profound_skill_id="20010002"	/>
+	<row        id="30001"      name="张飞"     position="3"    damage_type="1" 	common_skill_id="10000001"	profound_skill_id="20010003"	/>
+	<row        id="40001"      name="曹操"     position="1"    damage_type="2" 	common_skill_id="10000001"	profound_skill_id="20010004"	/>
+	<row        id="50001"      name="孙权"     position="2"    damage_type="2" 	common_skill_id="10000001"	profound_skill_id="20010005"	/>
+	<row        id="60001"      name="袁绍"     position="3"    damage_type="2" 	common_skill_id="10000001"	profound_skill_id="20010006"	/>
+	<row        id="70001"      name="左慈"     position="3"    damage_type="2" 	common_skill_id="10000001"	profound_skill_id="20010007"	/>
+</rows>

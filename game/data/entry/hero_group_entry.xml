@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+	<row	id="10001001"	hero_id_1="10001001"	pos_1="1"	hero_id_2="20001001"	pos_2="2"	hero_id_3="30001001"	pos_3="3"	hero_id_4="40001001"	pos_4="4"	hero_id_5="50001001"	pos_5="5"	hero_id_6="60001001"	pos_6="6"	/>
+	<row	id="10001002"	hero_id_1="10001002"	pos_1="1"	hero_id_2="20001002"	pos_2="2"	hero_id_3="30001002"	pos_3="3"	hero_id_4="40001002"	pos_4="4"	hero_id_5="50001002"	pos_5="5"	hero_id_6="60001002"	pos_6="6"	/>
+</rows>

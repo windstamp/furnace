@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rows>
+        <row    id="10001000"   type_id="10001" quality="0"		desc="初始"		att_type_1=""	att_value_1=""	att_type_2=""	att_value_2=""	passive_skill=""	/>
+        <row    id="10001001"   type_id="10001" quality="1"		desc="绿色1"    />
+        <row    id="10001002"   type_id="10001" quality="2"     desc="绿色2"    />
+        <row    id="10001003"   type_id="10001" quality="3"     desc="绿色3"    />
+        <row    id="10001004"   type_id="10001" quality="4"     desc="蓝色1"    />
+        <row    id="10001005"   type_id="10001" quality="5"     desc="蓝色2"    />
+        <row    id="10001006"   type_id="10001" quality="6"     desc="蓝色3"    />
+        <row    id="10001007"   type_id="10001" quality="7"     desc="紫色1"    />
+        <row    id="10001008"   type_id="10001" quality="8"     desc="紫色2"    />
+        <row    id="10001009"   type_id="10001" quality="9"     desc="紫色3"    />
+        <row    id="10001010"   type_id="10001" quality="10"    desc="橙色1"    />
+        <row    id="10001011"   type_id="10001" quality="11"    desc="橙色2"    />
+        <row    id="10001012"   type_id="10001" quality="12"    desc="橙色3"    />
+        <row    id="10001013"   type_id="10001" quality="13"    desc="红色1"    />
+        <row    id="10001014"   type_id="10001" quality="14"    desc="红色2"    />
+        <row    id="10001015"   type_id="10001" quality="15"    desc="红色3"    />
+        <row    id="10001016"   type_id="10001" quality="16"    desc="金色1"    />
+        <row    id="10001017"   type_id="10001" quality="17"    desc="金色2"    />
+        <row    id="10001018"   type_id="10001" quality="18"    desc="金色3"    />
+
+        <row    id="20001000"   type_id="20001" quality="0"     desc="初始"	    />
+        <row    id="20001001"   type_id="20001" quality="1"     desc="绿色1"    />
+        <row    id="20001002"   type_id="20001" quality="2"     desc="绿色2"    />
+        <row    id="20001003"   type_id="20001" quality="3"     desc="绿色3"    />
+        <row    id="20001004"   type_id="20001" quality="4"     desc="蓝色1"    />
+        <row    id="20001005"   type_id="20001" quality="5"     desc="蓝色2"    />
+        <row    id="20001006"   type_id="20001" quality="6"     desc="蓝色3"    />
+        <row    id="20001007"   type_id="20001" quality="7"     desc="紫色1"    />
+        <row    id="20001008"   type_id="20001" quality="8"     desc="紫色2"    />
+        <row    id="20001009"   type_id="20001" quality="9"     desc="紫色3"    />
+        <row    id="20001010"   type_id="20001" quality="10"    desc="橙色1"    />
+        <row    id="20001011"   type_id="20001" quality="11"    desc="橙色2"    />
+        <row    id="20001012"   type_id="20001" quality="12"    desc="橙色3"    />
+        <row    id="20001013"   type_id="20001" quality="13"    desc="红色1"    />
+        <row    id="20001014"   type_id="20001" quality="14"    desc="红色2"    />
+        <row    id="20001015"   type_id="20001" quality="15"    desc="红色3"    />
+        <row    id="20001016"   type_id="20001" quality="16"    desc="金色1"    />
+        <row    id="20001017"   type_id="20001" quality="17"    desc="金色2"    />
+        <row    id="20001018"   type_id="20001" quality="18"    desc="金色3"    />
+
+        <row    id="30001000"   type_id="30001" quality="0"		desc="初始"	    />
+        <row    id="30001001"   type_id="30001" quality="1"		desc="绿色1"    />
+        <row    id="30001002"   type_id="30001" quality="2"		desc="绿色2"    />
+        <row    id="30001003"   type_id="30001" quality="3"		desc="绿色3"    />
+        <row    id="30001004"   type_id="30001" quality="4"		desc="蓝色1"    />
+        <row    id="30001005"   type_id="30001" quality="5"		desc="蓝色2"    />
+        <row    id="30001006"   type_id="30001" quality="6"		desc="蓝色3"    />
+        <row    id="30001007"   type_id="30001" quality="7"		desc="紫色1"    />
+        <row    id="30001008"   type_id="30001" quality="8"		desc="紫色2"    />
+        <row    id="30001009"   type_id="30001" quality="9"		desc="紫色3"    />
+        <row    id="30001010"   type_id="30001" quality="10"    desc="橙色1"    />
+        <row    id="30001011"   type_id="30001" quality="11"    desc="橙色2"    />
+        <row    id="30001012"   type_id="30001" quality="12"    desc="橙色3"    />
+        <row    id="30001013"   type_id="30001" quality="13"    desc="红色1"    />
+        <row    id="30001014"   type_id="30001" quality="14"    desc="红色2"    />
+        <row    id="30001015"   type_id="30001" quality="15"    desc="红色3"    />
+        <row    id="30001016"   type_id="30001" quality="16"    desc="金色1"    />
+        <row    id="30001017"   type_id="30001" quality="17"    desc="金色2"    />
+        <row    id="30001018"   type_id="30001" quality="18"    desc="金色3"    />
+		
+        <row    id="70001000"   type_id="70001" quality="0"		desc="初始"	    />
+</rows>

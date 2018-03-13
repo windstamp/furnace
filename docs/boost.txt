@@ -1,0 +1,26 @@
+﻿执行时，需要在 LIBPATH 中指定 boost 库的路径
+
+两种方法：一种是把 boost 库安装到 /usr/local/lib 中
+
+1. /usr/local/lib
+./bootstrap.sh --with-libraries=all --prefix=/usr/local --includedir=/usr/local/include --libdir=/usr/local/lib
+./bjam install
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+export LD_LIBRARY_PATH
+
+2. 假设 boost 所有信息存放在目录 /home/smb/renshi/boost/boost_1_64_0
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/smb/renshi/boost/boost_1_64_0/stage/lib
+export LD_LIBRARY_PATH
+
+3. 设置 lib path
+
+export LD_LIBRARY_PATH=/usr/local/lib
+在终端里运行上面这行命令，再运行这个可执行文件，如果运行正常就说明是这个问题。
+接下来的问题是：以上做法，只是临时设置变量 LD_LIBRARY_PATH ，下次开机，一切设置将不复存在
+如何把这个值持续写到 LD_LIBRARY_PATH 里呢？我们可以在 ~/.bashrc 或者 ~/.bash_profile 中加入 export 语句
+前者在每次登陆和每次打开 shell 都读取一次，后者只在登陆时读取一次。我的习惯是加到 ~/.bashrc 中，
+在该文件的未尾，可采用如下语句来使设置生效：
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+修改完后，记得关掉当前终端并重新打开一个新的终端，从而使上面的配置生效。
